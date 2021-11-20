@@ -1,0 +1,62 @@
+*Que es una un api rest ?
+
+- Es un servicio o un prorama o un script que esta en el backend que nos permite hacer peticiones HTTP ya sea por GET POST PUT o DELETE 
+osea por los diferntes metodos que acepta el protocolo HTTP. interactua con la base de datos y nos devuelve un resultado en formato JSON 
+
+Que es nodeJs?
+
+- NodeJs es una plataforma que nos permite crear aplicaciones ejecu
+tabables por consola, nos permite desarrollar un backend completo y una 
+aplicacion web completa utillzando nada mas JS como lenguaje
+
+-Cabe destacar que pasa que NodeJs pase de ser una plataforma a un Framework 
+es menester instalar las librerias y y paquetes necesarios. 
+
+
+*Como creamos un  proyecto para trabajar con NODE.JS ?
+
+- Debemos estar en el directorio del script en la consola y colocar: npm init (y me creara el fichero pagague. json en la carpeta donde iran las
+ dependecias y las 
+configuraciones del proyecto)
+
+
+- LA LICENCIA ES: MIT
+
+- Luego de tener el paquete de Js procedemos a instalar las dependencias, porque Node js es una plataforma, y hay que instalarle las dependencias 
+para que funcione como si fuera un FRAMEWORK debo instalarle dependecias y librerias como express, bodyparce o como otras tantas, segun sea necesario.
+
+
+*Como instalar paquetes y librerias en mi proyecto de Node?
+
+- Debemos estar en la carpeta del proyecto, ahi escribimos: npm install (seguido del nombre del paquete o libreria) y las palabras --save
+
+Las mas escenciales son: npm install express --save, npm install ejs ,npm install body-parser --save, npm install connect-multiparty --save,
+ npm install mongoose --save
+   y npm install nodemon --save-dev
+
+- Express es un FRAMEWORK para trabajar con el protoloco HTTP, nos permite definir rutas, crear un sistema de rutas, crear un 
+sistema de rutas, recibir petIciones en HTTP, crear metodos y muchas cosas fundamentales para en desarrollo web 
+ 
+- body-parser: Es un paquete o una libreria que nos sirve para  convertir las peticiones que yo hago al Backend a un objeto JSon usable por Js 
+  y que luego yo puedo usar como yo quiera
+
+- connect-multiparty: Es una libreria que nos permite subir archivos al backend, y posteriormente recogerlo con la variable FILE, poder recoger ficheros 
+   y guardarlos en una carpeta de mi servidor. Esto es muy importante si queremos subir imagenes, si queremos subir algun archivo 
+
+- mongoose :  es un ORM que me ayuda y me permite conectarme facilmente y trabajar con MongoDb mucho mas facil. Me permite crear mi modelos, mi entidades y me permite trabajar con MongoDb
+  utilizando metodos que ya vienen por defecto, ya vienen hecho, son muy faciles de optimizar y ya vienen optimizados. 
+ 
+- nodemon: Cada vez que se hace un cambio en el codigo automticamente se reiniciara el servidor, cuando el servidor esta activo. Para que no se tenga que 
+           reiniciar manualmente ( ESTO FUNCIONA EN LOCAAAL NO EN PRODUCCION )
+
+
+
+
+
+cuando ya este todas las dependencias instaladas, colocar esto: 
+
+"test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"      -----------------------------:Abajo de test: "start": "nodemon El nombre del fichero principal"
+
+
+

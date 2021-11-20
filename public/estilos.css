@@ -1,0 +1,2756 @@
+
+body{
+
+    margin: 0 auto;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    color: cornsilk;
+
+    }
+
+    .regresar{ display: flex;
+               width: 200px;
+               height: 100px;
+               color: red;
+               border: solid red; 
+            }
+
+.flex-container{
+    
+    background-color: hsl(226, 43%, 10%);
+    width: 100%;
+    height:767px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    gap:24px;
+    
+                }
+
+
+                     
+
+.flex-container__hijo-derecho{   
+    
+    background-color: hsl(235, 46%, 20%);
+    /*border: rgb(255, 0, 128) solid;*/
+    height:400px;
+    width: 200px;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+                             }
+
+                              
+
+
+.flex-container__hijo-izquierdo{   
+    
+    /*background-color: rgb(20, 161, 7);*/
+    /*border: rgb(255, 136, 0) solid;*/
+    height:400px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    border-radius: 15px;     
+
+                        
+                               }
+
+
+
+.hijo-izquierdo__IntensSuperios{   
+    
+    /*background-color: rgb(17, 7, 161);*/
+    /*border: rgb(255, 0, 0) solid;*/
+    height:50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap:24px;
+  
+                            
+                        
+                               }
+
+
+.hijo-izquierdo__IntensInferior{   
+    
+    /*background-color: rgb(214, 16, 214);*/
+    /*border: rgb(188, 226, 19) solid;*/
+    height:50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap:24px; 
+   
+    
+                                                      
+                                                    
+                               }
+
+/*ESTOS SON LOS ESTILOS GENERAL DE LOS ITEMS DE LA DERECHA (el cuadro padre)*/
+.estilos_intens_izquierda{  
+    
+    background-color: rgb(248, 16, 16);
+    /*border: rgb(0, 0, 0) solid;*/
+    width: 33.333%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+/*bordes de abajo de los intes del lado derecho*/   
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+                                                       
+                                                      
+                         }
+
+/*ESTOS SON LOS ESTILOS GENERAL DE LOS ITEMS DE LA DERECHA (El cuadro hijo)*/                         
+.adentro{  
+    
+    background-color: hsl(235, 46%, 20%);
+    /*border: rgb(0, 0, 0) solid;*/
+    width:100%;
+    height: 152px;
+    border-radius: 15px;
+    
+                                                       
+                                                      
+        }
+        .adentro:hover{
+             
+            background-color: hsl(235deg 37% 28%);
+                                     
+                                     }
+
+
+/* Estilos del hijo izquierdo de container mayor  */          
+
+.flex-container__hijo-derecho__usuario{  
+    
+    background-color: hsl(235, 45%, 61%);
+    /*border: rgb(0, 0, 0) solid;*/
+    width:100%;
+    height: 152px;
+    border-radius: 15px;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+                                                       
+                                                      
+                                       }
+
+
+/* colores de fondo de lo s elementos de la derecha */
+
+.work{  
+    
+    background-color: hsl(15, 100%, 70%);
+
+    background-image: url(image/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 65px;
+    background-position-x: 90%;
+    background-position-y: -8%;
+    
+    
+    
+                                        
+     }
+
+.play{  
+    
+    background-color: hsl(195, 74%, 62%); 
+        
+    background-image: url(image/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 65px;
+    background-position-x: 90%;
+    background-position-y: -8%;
+
+    }
+
+.study{  
+    
+    background-color: hsl(348, 100%, 68%);  
+        
+    background-image: url(image/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 65px;
+    background-position-x: 90%;
+    background-position-y: -8%;
+      }
+
+.exercise{  
+    
+    background-color: hsl(145, 58%, 55%);                     
+        
+    background-image: url(image/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 65px;
+    background-position-x: 88%;
+    background-position-y: -1%;
+      }
+
+      .social{  
+    
+    background-color: hsl(264, 64%, 52%); 
+        
+    background-image: url(image/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 65px;
+    background-position-x: 90%;
+    background-position-y: -5%;
+             
+             }
+
+
+      .selfcare{  
+    
+    background-color: hsl(43, 84%, 65%); 
+        
+    background-image: url(image/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 51px;
+    background-position-x: 90%;
+    background-position-y: -5%;
+             }
+
+
+
+    /*contenedor padre work__adentro */
+    .work__adentro{
+
+         display: flex;
+         flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+                  
+                  }     
+
+                  
+                  
+/*Estilo para el Titulo Menu Hora Week Time*/
+/*Contenedor padre para menu y titulo*/  
+    .adentro__nombre-menu{
+    
+    width: 75%;
+    display: flex;
+    height: 47px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-top: 5px;
+
+
+                          }
+/*Contenedor padre para hora*/  
+.adentro__hora{
+    /*background-color: red; */
+    width: 75%;
+    display: flex;
+    height: 47px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        Font-size: 275%;
+        
+
+
+             }
+
+/*Contenedor padre para semana*/  
+.adentro__semana-hora{
+   /* background-color: rgb(76, 0, 255); */
+    width: 75%;
+    display: flex;
+    height: 47px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        font-size: 13px;
+        margin: -6px;
+        
+
+
+             }
+
+
+
+ .nombre{
+    /*background-color: rgb(76, 0, 255); */
+    width: 80%;
+    display: flex;
+    height: 47px;
+
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+
+           }
+.menu{
+    /*background-color: rgb(76, 0, 255); */
+    width: 80%;
+    display: flex;
+    height: 47px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    justify-content: flex-end;
+
+    background-image: url(image/icon-ellipsis.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 17px;
+    Font-size: 15px;
+    background-position-x: 90%;
+    background-position-y: 55%;
+      
+     } 
+         
+    
+
+     
+     
+     
+     /*ESTILOS DEL HIJO IZQUIERDO */
+
+     .usuario__foto-name{
+        /*background-color: crimson;*/
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 258px;
+        align-items: center;
+        width: 163px;
+        margin-top: 25px;/*28*/
+    
+                       }
+
+                       .foto{
+
+                        /*background-color: rgb(20, 220, 37);*/
+                        display: flex;
+                        height: 88px;
+                        width: 100%;
+
+
+
+                        background-image: url("image/image-jeremy.png"),url("image/favicon-32x32.png") ;
+                        background-repeat: no-repeat;
+                        background-position: top left;
+                        background-size: 65px, 70px;
+                        border-width: 20px solid;
+                        background-position-x: 3%,1%;
+                        background-position-y: 9%,-1%;
+
+                        
+                             }
+                        
+                       
+                      
+                     
+
+
+                        
+                             
+
+                             .name{
+                                /*background-color: rgb(220, 217, 20);*/
+                                display: flex;
+                                
+                                height: 100px;
+                                width: 100%;
+                                flex-direction: column;
+                            
+                                     }
+.name_real{
+
+    font-size: 35px;
+
+           }
+
+.Elpara{
+
+    font-size: 14px;
+
+       }
+
+
+
+       /*ESTILO DE CATILLA IZQUIERDA SECCION DIA SEMANA MES*/
+
+       .flex-container__hijo-derecho__mes-dia-semana-mes{
+
+        /*background-color: red;*/
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 211px;
+        align-items: flex-start;
+        width: 163px;
+        margin-top: 19px;
+        margin-bottom: 25px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        
+
+                                                         }
+
+       
+  .dias{  
+         /*background-color: rgb(237, 255, 71);*/
+         height: 20px;
+         color:#8d94ff;
+      }
+         
+      .dias:hover{
+
+        color:#ffffff;
+
+                }
+
+ .semana{
+    /*background-color: rgb(111, 71, 255);*/
+        height: 20px;
+        color:#ffffff;
+        }
+ 
+        
+
+  .mes{
+    /*background-color: rgb(71, 255, 95);*/
+        height: 20px;
+        color:#8d94ff;
+      }
+
+        .mes:hover{
+
+            color:#ffffff;
+        
+                    }
+
+.mobil{  display: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*EEEEESSTE ES EL COMINEZO  DE LOS MEDIA QUERIS*/
+
+@media screen and (min-width:400px)and(max-width:1024){
+
+    body{ background-color: rgb(0, 255, 34);}
+
+                                                    }
+ 
+ 
+                                                    @media screen and (max-width:780)and(min-width:400){
+
+                                                        body{ background-color: blue;}
+                                                
+                                                                                                        }
+                                                
+@media screen and (max-width:400px){
+
+
+
+    
+
+
+*{  margin:0; padding: 0; box-sizing: content-box; }
+
+   
+body{
+
+    margin: 0 auto;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    color: cornsilk;
+    background-color: hsl(226, 43%, 10%);
+    
+
+    }
+
+.flex-container{
+    
+    background-color: hsl(226, 43%, 10%);
+    width: 107%;
+    height: 1924px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 178px;
+    align-content: center;
+    margin-top: -401px;
+
+    
+                }
+
+
+                     
+
+.flex-container__hijo-derecho{   
+    
+    background-color: hsl(235, 46%, 20%);
+    /*border: rgb(255, 0, 128) solid;*/
+    height:184px;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 74px;
+    width: 85%;
+                             }
+
+                              
+
+
+.flex-container__hijo-izquierdo{   
+    
+    /*background-color: rgb(20, 161, 7);*/
+    /*border: rgb(255, 136, 0) solid;*/
+    height:400px;
+    width: 86%; /*254*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    border-radius: 15px;
+    align-content: center;     
+    margin-top: 123px;
+
+                        
+                               }
+
+                           
+
+
+
+.hijo-izquierdo__IntensSuperios{   
+    
+    /*background-color: rgb(17, 7, 161);*/
+    /*border: rgb(255, 0, 0) solid;*/
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap:24px;
+    align-items: center;
+   width: 100%;
+                            
+                        
+                               }
+
+
+.hijo-izquierdo__IntensInferior{   
+    
+    /*background-color: rgb(214, 16, 214);*/
+    /*border: rgb(188, 226, 19) solid;*/
+    height:56%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 24px;
+    align-items: center;
+    align-content: center;
+    padding-top: 97%;
+    width: 100%;
+    
+                                                      
+                                                    
+                               }
+
+/*ESTOS SON LOS ESTILOS GENERAL DE LOS ITEMS DE LA DERECHA (el cuadro padre)*/
+.estilos_intens_izquierda{  
+    
+    background-color: rgb(248, 16, 16);
+    /*border: rgb(0, 0, 0) solid;*/
+    width: 96%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+/*bordes de abajo de los intes del lado derecho*/   
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+
+    padding-top: 39px;
+                                                       
+                                                      
+                         }
+
+/*ESTOS SON LOS ESTILOS GENERAL DE LOS ITEMS DE LA DERECHA (El cuadro hijo)*/                         
+.adentro{  
+    
+    background-color: hsl(235, 46%, 20%);
+    /*border: rgb(0, 0, 0) solid;*/
+    width:100%;
+    height: 122px;
+    border-radius: 15px;
+    
+                                                       
+                                                      
+        }
+        .adentro:hover{
+             
+            background-color: hsl(235deg 37% 28%);
+                                     
+                                     }
+
+
+/* Estilos del hijo izquierdo de container mayor  */          
+
+.flex-container__hijo-derecho__usuario{  
+    
+    background-color: hsl(235, 45%, 61%);
+    /*border: rgb(0, 0, 0) solid;*/
+    width:100%;
+    border-radius: 15px;
+    height: 64%;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+                                                       
+                                                      
+                                       }
+
+
+/* colores de fondo de lo s elementos de la derecha */
+
+.work{  
+    
+    background-color: hsl(15, 100%, 70%);
+
+    background-image: url(image/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 65px;
+    background-position-x: 90%;
+    background-position-y: -8%;
+    
+    
+    
+                                        
+     }
+
+.play{  
+    
+    background-color: hsl(195, 74%, 62%); 
+        
+    background-image: url(image/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 65px;
+    background-position-x: 90%;
+    background-position-y: -8%;
+
+    }
+
+.study{  
+    
+    background-color: hsl(348, 100%, 68%);  
+        
+    background-image: url(image/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 65px;
+    background-position-x: 90%;
+    background-position-y: -8%;
+      }
+
+.exercise{  
+    
+    background-color: hsl(145, 58%, 55%);                     
+        
+    background-image: url(image/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 65px;
+    background-position-x: 88%;
+    background-position-y: -1%;
+      }
+
+      .social{  
+    
+    background-color: hsl(264, 64%, 52%); 
+        
+    background-image: url(image/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 65px;
+    background-position-x: 90%;
+    background-position-y: -5%;
+             
+             }
+
+
+      .selfcare{  
+    
+    background-color: hsl(43, 84%, 65%); 
+        
+    background-image: url(image/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 51px;
+    background-position-x: 90%;
+    background-position-y: -5%;
+             }
+
+
+
+    /*contenedor padre work__adentro */
+    .work__adentro{
+
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+    align-items: center;
+                  
+                  }     
+
+                  
+                  
+/*Estilo para el Titulo Menu Hora Week Time*/
+/*Contenedor padre para menu y titulo*/  
+    .adentro__nombre-menu{
+    
+    width: 75%;
+    display: flex;
+    height: 47px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-top: 5px;
+
+
+                          }
+/*Contenedor padre para hora*/  
+.adentro__hora{
+    /*background-color: red; */
+    width: 75%;
+    display: flex;
+    height: 47px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        Font-size: 275%;
+        
+
+
+             }
+
+/*Contenedor padre para semana*/  
+.adentro__semana-hora{
+   /* background-color: rgb(76, 0, 255); */
+    width: 75%;
+    display: flex;
+    height: 47px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        font-size: 13px;
+        margin: -6px;
+        justify-content: flex-end;
+        align-items: center;
+        
+
+
+             }
+
+
+
+ .nombre{
+    /*background-color: rgb(76, 0, 255); */
+    width: 80%;
+    display: flex;
+    height: 47px;
+
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+
+           }
+.menu{
+    /*background-color: rgb(76, 0, 255); */
+    width: 80%;
+    display: flex;
+    height: 47px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    justify-content: flex-end;
+
+    background-image: url(image/icon-ellipsis.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 17px;
+    Font-size: 15px;
+    background-position-x: 90%;
+    background-position-y: 55%;
+      
+     } 
+         
+    
+
+     
+     
+     
+     /*ESTILOS DEL HIJO IZQUIERDO */
+
+     .usuario__foto-name{
+        /*background-color: crimson;*/
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: 93px;
+        align-items: center;
+        width: 255px;
+        margin-top: 25px;/*28*/
+        
+    
+                       }
+
+                       .foto{
+
+                        /*background-color: rgb(20, 220, 37);*/
+                        display: flex;
+                        height: 88px;
+                        width: 46%;
+
+
+
+                        background-image: url("image/image-jeremy.png"),url("image/favicon-32x32.png") ;
+                        background-repeat: no-repeat;
+                        background-position: top left;
+                        background-size: 65px, 70px;
+                        border-width: 20px solid;
+                       
+                        /*background-position-x: 12%,-19%;
+                        background-position-y: 13%,-2%;*/
+                        background-position-x: 10%,-19%;
+                        background-position-y: 7%,-4%;
+
+                        
+                             }
+                        
+                       
+                      
+                     
+
+
+                        
+                             
+
+                             .name{
+                                /*background-color: rgb(220, 217, 20);*/
+                                display: flex;
+                                
+                                height: 100px;
+                                width: 100%;
+                                flex-direction: column;
+                                padding-top: 32px;
+                            
+                                     }
+.name_real{
+
+    font-size: 24px;
+
+           }
+
+.Elpara{
+
+    font-size: 14px;
+
+       }
+
+
+
+       /*ESTILO DE CATILLA IZQUIERDA SECCION DIA SEMANA MES*/
+
+       .flex-container__hijo-derecho__mes-dia-semana-mes{
+
+        /*background-color: red;*/
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: 211px;
+        align-items: flex-start;
+        width: 251px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        
+
+                                                         }
+
+       
+  .dias{  
+         /*background-color: rgb(237, 255, 71);*/
+         height: 20px;
+         color:#8d94ff;
+         font-size: 18px;
+      }
+         
+      .dias:hover{
+
+        color:#ffffff;
+
+                }
+
+ .semana{
+    /*background-color: rgb(111, 71, 255);*/
+        height: 20px;
+        color:#ffffff;
+        font-size: 18px;
+        }
+ 
+        
+
+  .mes{
+    /*background-color: rgb(71, 255, 95);*/
+        height: 20px;
+        color:#8d94ff;
+        font-size: 18px;
+      }
+
+        .mes:hover{
+
+            color:#ffffff;
+        
+                    }
+
+
+
+
+
+
+
+
+                    .mobil:lang(es) {
+                        
+                   
+                       
+                       width: 102px;
+                       padding-left: 25px;
+                
+                                    }
+
+                 .hora:lang(es){
+                        
+                    font-size: 30px;
+
+            
+                                }
+
+           
+
+
+body{ background-color: red; width: 100%; }
+
+.desktop{ display: none;  }
+                                                                                                    
+                                  }/*EEEEESSTE ES EL FIIIN DE LOS MEDIA QUERIS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  @media screen and (max-width:360px){
+
+
+
+    
+
+
+                                    *{  margin:0; padding: 0; box-sizing: content-box; }
+                                    
+                                       
+                                    body{
+                                    
+                                        margin: 0 auto;
+                                        font-family: Rubik, Arial, Helvetica, sans-serif;
+                                        color: cornsilk;
+                                        background-color: hsl(226, 43%, 10%);
+                                    
+                                        }
+                                    
+                                    .flex-container{
+                                        
+                                        background-color: hsl(226, 43%, 10%);
+                                        width: 107%;
+                                        height: 1924px;
+                                        display: flex;
+                                        flex-wrap: nowrap;
+                                        justify-content:center;
+                                        align-items: center;
+                                        flex-direction: column;
+                                        gap: 178px;
+                                        align-content: center;
+                                        margin-top: -401px;
+                                    
+                                        
+                                                    }
+                                    
+                                    
+                                                         
+                                    
+                                    .flex-container__hijo-derecho{   
+                                        
+                                        background-color: hsl(235, 46%, 20%);
+                                        /*border: rgb(255, 0, 128) solid;*/
+                                        height:184px;
+                                        display: flex;
+                                        border-radius: 15px;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        justify-content: flex-start;
+                                        margin-bottom: 74px;
+                                        width: 85%;
+                                                                 }
+                                    
+                                                                  
+                                    
+                                    
+                                    .flex-container__hijo-izquierdo{   
+                                        
+                                        /*background-color: rgb(20, 161, 7);*/
+                                        /*border: rgb(255, 136, 0) solid;*/
+                                        height:400px;
+                                        width: 86%; /*254*/
+                                        display: flex;
+                                        flex-direction: column;
+                                        flex-wrap: nowrap;
+                                        justify-content: center;
+                                        align-items: stretch;
+                                        gap: 24px;
+                                        border-radius: 15px;
+                                        align-content: center;     
+                                        margin-top: 123px;
+                                    
+                                                            
+                                                                   }
+                                    
+                                                               
+                                    
+                                    
+                                    
+                                    .hijo-izquierdo__IntensSuperios{   
+                                        
+                                        /*background-color: rgb(17, 7, 161);*/
+                                        /*border: rgb(255, 0, 0) solid;*/
+                                        height:50%;
+                                        display: flex;
+                                        flex-direction: column;
+                                        flex-wrap: nowrap;
+                                        justify-content: center;
+                                        gap:24px;
+                                        align-items: center;
+                                       width: 100%;
+                                                                
+                                                            
+                                                                   }
+                                    
+                                    
+                                    .hijo-izquierdo__IntensInferior{   
+                                        
+                                        /*background-color: rgb(214, 16, 214);*/
+                                        /*border: rgb(188, 226, 19) solid;*/
+                                        height:56%;
+                                        display: flex;
+                                        flex-direction: column;
+                                        flex-wrap: nowrap;
+                                        gap: 24px;
+                                        align-items: center;
+                                        align-content: center;
+                                        padding-top: 97%;
+                                        width: 100%;
+                                        
+                                                                                          
+                                                                                        
+                                                                   }
+                                    
+                                    /*ESTOS SON LOS ESTILOS GENERAL DE LOS ITEMS DE LA DERECHA (el cuadro padre)*/
+                                    .estilos_intens_izquierda{  
+                                        
+                                        background-color: rgb(248, 16, 16);
+                                        /*border: rgb(0, 0, 0) solid;*/
+                                        width: 96%;
+                                        border-radius: 15px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        justify-content: flex-end;
+                                    /*bordes de abajo de los intes del lado derecho*/   
+                                        border-bottom-left-radius: 19px;
+                                        border-bottom-right-radius: 19px;
+                                    
+                                        padding-top: 39px;
+                                                                                           
+                                                                                          
+                                                             }
+                                    
+                                    /*ESTOS SON LOS ESTILOS GENERAL DE LOS ITEMS DE LA DERECHA (El cuadro hijo)*/                         
+                                    .adentro{  
+                                        
+                                        background-color: hsl(235, 46%, 20%);
+                                        /*border: rgb(0, 0, 0) solid;*/
+                                        width:100%;
+                                        height: 122px;
+                                        border-radius: 15px;
+                                        
+                                                                                           
+                                                                                          
+                                            }
+                                            .adentro:hover{
+                                                 
+                                                background-color: hsl(235deg 37% 28%);
+                                                                         
+                                                                         }
+                                    
+                                    
+                                    /* Estilos del hijo izquierdo de container mayor  */          
+                                    
+                                    .flex-container__hijo-derecho__usuario{  
+                                        
+                                        background-color: hsl(235, 45%, 61%);
+                                        /*border: rgb(0, 0, 0) solid;*/
+                                        width:100%;
+                                        border-radius: 15px;
+                                        height: 64%;
+                                        display: flex;
+                                        justify-content: center;
+                                        padding-top: 12px;
+                                                                                           
+                                                                                          
+                                                                           }
+                                    
+                                    
+                                    /* colores de fondo de lo s elementos de la derecha */
+                                    
+                                    .work{  
+                                        
+                                        background-color: hsl(15, 100%, 70%);
+                                    
+                                        background-image: url(image/icon-work.svg);
+                                        background-repeat: no-repeat;
+                                        background-position: top right;
+                                        background-size: 65px;
+                                        background-position-x: 90%;
+                                        background-position-y: -8%;
+                                        
+                                        
+                                        
+                                                                            
+                                         }
+                                    
+                                    .play{  
+                                        
+                                        background-color: hsl(195, 74%, 62%); 
+                                            
+                                        background-image: url(image/icon-play.svg);
+                                        background-repeat: no-repeat;
+                                        background-position: top right;
+                                        background-size: 65px;
+                                        background-position-x: 90%;
+                                        background-position-y: -8%;
+                                    
+                                        }
+                                    
+                                    .study{  
+                                        
+                                        background-color: hsl(348, 100%, 68%);  
+                                            
+                                        background-image: url(image/icon-study.svg);
+                                        background-repeat: no-repeat;
+                                        background-position: top right;
+                                        background-size: 65px;
+                                        background-position-x: 90%;
+                                        background-position-y: -8%;
+                                          }
+                                    
+                                    .exercise{  
+                                        
+                                        background-color: hsl(145, 58%, 55%);                     
+                                            
+                                        background-image: url(image/icon-exercise.svg);
+                                        background-repeat: no-repeat;
+                                        background-position: top right;
+                                        background-size: 65px;
+                                        background-position-x: 88%;
+                                        background-position-y: -1%;
+                                          }
+                                    
+                                          .social{  
+                                        
+                                        background-color: hsl(264, 64%, 52%); 
+                                            
+                                        background-image: url(image/icon-social.svg);
+                                        background-repeat: no-repeat;
+                                        background-position: top right;
+                                        background-size: 65px;
+                                        background-position-x: 90%;
+                                        background-position-y: -5%;
+                                                 
+                                                 }
+                                    
+                                    
+                                          .selfcare{  
+                                        
+                                        background-color: hsl(43, 84%, 65%); 
+                                            
+                                        background-image: url(image/icon-self-care.svg);
+                                        background-repeat: no-repeat;
+                                        background-position: top right;
+                                        background-size: 51px;
+                                        background-position-x: 90%;
+                                        background-position-y: -5%;
+                                                 }
+                                    
+                                    
+                                    
+                                        /*contenedor padre work__adentro */
+                                        .work__adentro{
+                                    
+                                             display: flex;
+                                             flex-direction: column;
+                                             justify-content: flex-start;
+                                        align-items: center;
+                                                      
+                                                      }     
+                                    
+                                                      
+                                                      
+                                    /*Estilo para el Titulo Menu Hora Week Time*/
+                                    /*Contenedor padre para menu y titulo*/  
+                                        .adentro__nombre-menu{
+                                        
+                                        width: 75%;
+                                        display: flex;
+                                        height: 47px;
+                                            flex-direction: row;
+                                            flex-wrap: nowrap;
+                                            align-items: center;
+                                            padding-top: 5px;
+                                    
+                                    
+                                                              }
+                                    /*Contenedor padre para hora*/  
+                                    .adentro__hora{
+                                        /*background-color: red; */
+                                        width: 75%;
+                                        display: flex;
+                                        height: 47px;
+                                            flex-direction: row;
+                                            flex-wrap: nowrap;
+                                            align-items: center;
+                                            Font-size: 275%;
+                                            
+                                    
+                                    
+                                                 }
+                                    
+                                    /*Contenedor padre para semana*/  
+                                    .adentro__semana-hora{
+                                       /* background-color: rgb(76, 0, 255); */
+                                        width: 75%;
+                                        display: flex;
+                                        height: 47px;
+                                            flex-direction: row;
+                                            flex-wrap: nowrap;
+                                            align-items: flex-start;
+                                            font-size: 13px;
+                                            margin: -6px;
+                                            justify-content: flex-end;
+                                            align-items: center;
+                                            
+                                    
+                                    
+                                                 }
+                                    
+                                    
+                                    
+                                     .nombre{
+                                        /*background-color: rgb(76, 0, 255); */
+                                        width: 80%;
+                                        display: flex;
+                                        height: 47px;
+                                    
+                                            flex-direction: row;
+                                            flex-wrap: nowrap;
+                                            align-items: center;
+                                    
+                                               }
+                                    .menu{
+                                        /*background-color: rgb(76, 0, 255); */
+                                        width: 80%;
+                                        display: flex;
+                                        height: 47px;
+                                            flex-direction: row;
+                                            flex-wrap: nowrap;
+                                            align-items: center;
+                                        justify-content: flex-end;
+                                    
+                                        background-image: url(image/icon-ellipsis.svg);
+                                        background-repeat: no-repeat;
+                                        background-position: top right;
+                                        background-size: 17px;
+                                        Font-size: 15px;
+                                        background-position-x: 90%;
+                                        background-position-y: 55%;
+                                          
+                                         } 
+                                             
+                                        
+                                    
+                                         
+                                         
+                                         
+                                         /*ESTILOS DEL HIJO IZQUIERDO */
+                                    
+                                         .usuario__foto-name{
+                                            /*background-color: crimson;*/
+                                            display: flex;
+                                            flex-direction: row;
+                                            flex-wrap: nowrap;
+                                            height: 93px;
+                                            align-items: center;
+                                            width: 255px;
+                                            margin-top: 25px;/*28*/
+                                            
+                                        
+                                                           }
+                                    
+                                                           .foto{
+                                    
+                                                            /*background-color: rgb(20, 220, 37);*/
+                                                            display: flex;
+                                                            height: 88px;
+                                                            width: 46%;
+                                    
+                                    
+                                    
+                                                            background-image: url("image/image-jeremy.png"),url("image/favicon-32x32.png") ;
+                                                            background-repeat: no-repeat;
+                                                            background-position: top left;
+                                                            background-size: 65px, 70px;
+                                                            border-width: 20px solid;
+                                                           
+                                                            /*background-position-x: 12%,-19%;
+                                                            background-position-y: 13%,-2%;*/
+                                                            background-position-x: 10%,-19%;
+                                                            background-position-y: 7%,-4%;
+                                    
+                                                            
+                                                                 }
+                                                            
+                                                           
+                                                          
+                                                         
+                                    
+                                    
+                                                            
+                                                                 
+                                    
+                                                                 .name{
+                                                                    /*background-color: rgb(220, 217, 20);*/
+                                                                    display: flex;
+                                                                    
+                                                                    height: 100px;
+                                                                    width: 100%;
+                                                                    flex-direction: column;
+                                                                    padding-top: 32px;
+                                                                
+                                                                         }
+                                    .name_real{
+                                    
+                                        font-size: 24px;
+                                    
+                                               }
+                                    
+                                    .Elpara{
+                                    
+                                        font-size: 14px;
+                                    
+                                           }
+                                    
+                                    
+                                    
+                                           /*ESTILO DE CATILLA IZQUIERDA SECCION DIA SEMANA MES*/
+                                    
+                                           .flex-container__hijo-derecho__mes-dia-semana-mes{
+                                    
+                                            /*background-color: red;*/
+                                            
+                                            display: flex;
+                                            flex-direction: row;
+                                            flex-wrap: nowrap;
+                                            height: 211px;
+                                            align-items: flex-start;
+                                            width: 251px;
+                                            margin-top: 20px;
+                                            margin-bottom: 25px;
+                                            flex-wrap: nowrap;
+                                            justify-content: space-between;
+                                            
+                                    
+                                                                                             }
+                                    
+                                           
+                                      .dias{  
+                                             /*background-color: rgb(237, 255, 71);*/
+                                             height: 20px;
+                                             color:#8d94ff;
+                                             font-size: 18px;
+                                          }
+                                             
+                                          .dias:hover{
+                                    
+                                            color:#ffffff;
+                                    
+                                                    }
+                                    
+                                     .semana{
+                                        /*background-color: rgb(111, 71, 255);*/
+                                            height: 20px;
+                                            color:#ffffff;
+                                            font-size: 18px;
+                                            }
+                                     
+                                            
+                                    
+                                      .mes{
+                                        /*background-color: rgb(71, 255, 95);*/
+                                            height: 20px;
+                                            color:#8d94ff;
+                                            font-size: 18px;
+                                          }
+                                    
+                                            .mes:hover{
+                                    
+                                                color:#ffffff;
+                                            
+                                                        }
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                                        .mobil:lang(es) {
+                                                            
+                                                       
+                                                           
+                                                           width: 102px;
+                                                           padding-left: 25px;
+                                                    
+                                                                        }
+                                    
+                                                     .hora:lang(es){
+                                                            
+                                                        font-size: 30px;
+                                    
+                                                
+                                                                    }
+                                    
+                                               
+                                    
+                                    
+                                    body{ background-color: hsl(226, 43%, 10%); width: 100%; }
+                                    
+                                    .desktop{ display: none;  }
+                                                                                                                                        
+                                                                      }/*EEEEESSTE ES EL FIIIN DE LOS MEDIA QUERIS*/   
+                                                                      
+                                                                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                                                                      
+
+
+
+
+
+
+
+
+
+                                                                      @media screen and (max-width:375px){
+
+
+
+    
+
+
+                                                                        *{  margin:0; padding: 0; box-sizing: content-box; 
+                                                                           
+                                                                        }
+                                                                        
+                                                                           
+                                                                        body{
+                                                                        
+                                                                            margin: 0 auto;
+                                                                            font-family: Rubik, Arial, Helvetica, sans-serif;
+                                                                            color: cornsilk;
+                                                                            background-color: hsl(226, 43%, 10%);
+                                                                            
+
+
+                                                                        
+                                                                            }
+                                                                        
+                                                                        .flex-container{
+                                                                             
+                                                                            background-color: hsl(226, 43%, 10%);
+                                                                            width: 100%;
+                                                                            height: 1924px;
+                                                                            display: flex;
+                                                                            flex-wrap: nowrap;
+                                                                            justify-content:center;
+                                                                            align-items: center;
+                                                                            flex-direction: column;
+                                                                            gap: 178px;
+                                                                            align-content: center;
+                                                                            margin-top: -401px;
+                                                                           
+                                                                        
+                                                                            
+                                                                                        }
+                                                                        
+                                                                        
+                                                                                             
+                                                                        
+                                                                        .flex-container__hijo-derecho{   
+                                                                            
+                                                                            background-color: hsl(235, 46%, 20%);
+                                                                            /*border: rgb(255, 0, 128) solid;*/
+                                                                            height:184px;
+                                                                            display: flex;
+                                                                            border-radius: 15px;
+                                                                            flex-direction: column;
+                                                                            align-items: center;
+                                                                            justify-content: flex-start;
+                                                                            margin-bottom: 74px;
+                                                                            width: 85%;
+                                                                                                     }
+                                                                        
+                                                                                                      
+                                                                        
+                                                                        
+                                                                        .flex-container__hijo-izquierdo{   
+                                                                            
+                                                                            /*background-color: rgb(20, 161, 7);*/
+                                                                            /*border: rgb(255, 136, 0) solid;*/
+                                                                            height:400px;
+                                                                            width: 86%; /*254*/
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            flex-wrap: nowrap;
+                                                                            justify-content: center;
+                                                                            align-items: stretch;
+                                                                            gap: 24px;
+                                                                            border-radius: 15px;
+                                                                            align-content: center;     
+                                                                            margin-top: 123px;
+                                                                        
+                                                                                                
+                                                                                                       }
+                                                                        
+                                                                                                   
+                                                                        
+                                                                        
+                                                                        
+                                                                        .hijo-izquierdo__IntensSuperios{   
+                                                                            
+                                                                            /*background-color: rgb(17, 7, 161);*/
+                                                                            /*border: rgb(255, 0, 0) solid;*/
+                                                                            height:50%;
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            flex-wrap: nowrap;
+                                                                            justify-content: center;
+                                                                            gap:24px;
+                                                                            align-items: center;
+                                                                           width: 100%;
+                                                                                                    
+                                                                                                
+                                                                                                       }
+                                                                        
+                                                                        
+                                                                        .hijo-izquierdo__IntensInferior{   
+                                                                            
+                                                                            /*background-color: rgb(214, 16, 214);*/
+                                                                            /*border: rgb(188, 226, 19) solid;*/
+                                                                            height:56%;
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            flex-wrap: nowrap;
+                                                                            gap: 24px;
+                                                                            align-items: center;
+                                                                            align-content: center;
+                                                                            padding-top: 93%;
+                                                                            width: 100%;
+                                                                            
+                                                                                                                              
+                                                                                                                            
+                                                                                                       }
+                                                                        
+                                                                        /*ESTOS SON LOS ESTILOS GENERAL DE LOS ITEMS DE LA DERECHA (el cuadro padre)*/
+                                                                        .estilos_intens_izquierda{  
+                                                                            
+                                                                            background-color: rgb(248, 16, 16);
+                                                                            /*border: rgb(0, 0, 0) solid;*/
+                                                                            width: 96%;
+                                                                            border-radius: 15px;
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            align-items: center;
+                                                                            justify-content: flex-end;
+                                                                        /*bordes de abajo de los intes del lado derecho*/   
+                                                                            border-bottom-left-radius: 19px;
+                                                                            border-bottom-right-radius: 19px;
+                                                                        
+                                                                            padding-top: 9.1%;
+                                                                                                                               
+                                                                                                                              
+                                                                                                 }
+                                                                        
+                                                                        /*ESTOS SON LOS ESTILOS GENERAL DE LOS ITEMS DE LA DERECHA (El cuadro hijo)*/                         
+                                                                        .adentro{  
+                                                                            
+                                                                            background-color: hsl(235, 46%, 20%);
+                                                                            /*border: rgb(0, 0, 0) solid;*/
+                                                                            width:100%;
+                                                                            height: 122px;
+                                                                            border-radius: 15px;
+                                                                            
+                                                                                                                               
+                                                                                                                              
+                                                                                }
+                                                                                .adentro:hover{
+                                                                                     
+                                                                                    background-color: hsl(235deg 37% 28%);
+                                                                                                             
+                                                                                                             }
+                                                                        
+                                                                        
+                                                                        /* Estilos del hijo izquierdo de container mayor  */          
+                                                                        
+                                                                        .flex-container__hijo-derecho__usuario{  
+                                                                            
+                                                                            background-color: hsl(235, 45%, 61%);
+                                                                            /*border: rgb(0, 0, 0) solid;*/
+                                                                            width:100%;
+                                                                            border-radius: 15px;
+                                                                            height: 64%;
+                                                                            display: flex;
+                                                                            justify-content: center;
+                                                                            padding-top: 12px;
+                                                                                                                               
+                                                                                                                              
+                                                                                                               }
+                                                                        
+                                                                        
+                                                                        /* colores de fondo de lo s elementos de la derecha */
+                                                                        
+                                                                        .work{  
+                                                                            
+                                                                            background-color: hsl(15, 100%, 70%);
+                                                                        
+                                                                            background-image: url(image/icon-work.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 65px;
+                                                                            background-position-x: 90%;
+                                                                            background-position-y: -8%;
+                                                                            
+                                                                            
+                                                                            
+                                                                                                                
+                                                                             }
+                                                                        
+                                                                        .play{  
+                                                                            
+                                                                            background-color: hsl(195, 74%, 62%); 
+                                                                                
+                                                                            background-image: url(image/icon-play.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 65px;
+                                                                            background-position-x: 90%;
+                                                                            background-position-y: -8%;
+                                                                        
+                                                                            }
+                                                                        
+                                                                        .study{  
+                                                                            
+                                                                            background-color: hsl(348, 100%, 68%);  
+                                                                                
+                                                                            background-image: url(image/icon-study.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 65px;
+                                                                            background-position-x: 90%;
+                                                                            background-position-y: -8%;
+                                                                              }
+                                                                        
+                                                                        .exercise{  
+                                                                            
+                                                                            background-color: hsl(145, 58%, 55%);                     
+                                                                                
+                                                                            background-image: url(image/icon-exercise.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 65px;
+                                                                            background-position-x: 88%;
+                                                                            background-position-y: -1%;
+                                                                              }
+                                                                        
+                                                                              .social{  
+                                                                            
+                                                                            background-color: hsl(264, 64%, 52%); 
+                                                                                
+                                                                            background-image: url(image/icon-social.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 65px;
+                                                                            background-position-x: 90%;
+                                                                            background-position-y: -5%;
+                                                                                     
+                                                                                     }
+                                                                        
+                                                                        
+                                                                              .selfcare{  
+                                                                            
+                                                                            background-color: hsl(43, 84%, 65%); 
+                                                                                
+                                                                            background-image: url(image/icon-self-care.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 51px;
+                                                                            background-position-x: 90%;
+                                                                            background-position-y: -5%;
+                                                                                     }
+                                                                        
+                                                                        
+                                                                        
+                                                                            /*contenedor padre work__adentro */
+                                                                            .work__adentro{
+                                                                        
+                                                                                 display: flex;
+                                                                                 flex-direction: column;
+                                                                                 justify-content: flex-start;
+                                                                            align-items: center;
+                                                                                          
+                                                                                          }     
+                                                                        
+                                                                                          
+                                                                                          
+                                                                        /*Estilo para el Titulo Menu Hora Week Time*/
+                                                                        /*Contenedor padre para menu y titulo*/  
+                                                                            .adentro__nombre-menu{
+                                                                            
+                                                                            width: 75%;
+                                                                            display: flex;
+                                                                            height: 47px;
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                align-items: center;
+                                                                                padding-top: 5px;
+                                                                        
+                                                                        
+                                                                                                  }
+                                                                        /*Contenedor padre para hora*/  
+                                                                        .adentro__hora{
+                                                                            /*background-color: red; */
+                                                                            width: 75%;
+                                                                            display: flex;
+                                                                            height: 47px;
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                align-items: center;
+                                                                                Font-size: 275%;
+                                                                                
+                                                                        
+                                                                        
+                                                                                     }
+                                                                        
+                                                                        /*Contenedor padre para semana*/  
+                                                                        .adentro__semana-hora{
+                                                                           /* background-color: rgb(76, 0, 255); */
+                                                                            width: 75%;
+                                                                            display: flex;
+                                                                            height: 47px;
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                align-items: flex-start;
+                                                                                font-size: 13px;
+                                                                                margin: -6px;
+                                                                                justify-content: flex-end;
+                                                                                align-items: center;
+                                                                                
+                                                                        
+                                                                        
+                                                                                     }
+                                                                        
+                                                                        
+                                                                        
+                                                                         .nombre{
+                                                                            /*background-color: rgb(76, 0, 255); */
+                                                                            width: 80%;
+                                                                            display: flex;
+                                                                            height: 47px;
+                                                                        
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                align-items: center;
+                                                                        
+                                                                                   }
+                                                                        .menu{
+                                                                            /*background-color: rgb(76, 0, 255); */
+                                                                            width: 80%;
+                                                                            display: flex;
+                                                                            height: 47px;
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                align-items: center;
+                                                                            justify-content: flex-end;
+                                                                        
+                                                                            background-image: url(image/icon-ellipsis.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 17px;
+                                                                            Font-size: 15px;
+                                                                            background-position-x: 90%;
+                                                                            background-position-y: 55%;
+                                                                              
+                                                                             } 
+                                                                                 
+                                                                            
+                                                                        
+                                                                             
+                                                                             
+                                                                             
+                                                                             /*ESTILOS DEL HIJO IZQUIERDO */
+                                                                        
+                                                                             .usuario__foto-name{
+                                                                                /*background-color: crimson;*/
+                                                                                display: flex;
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                height: 93px;
+                                                                                align-items: center;
+                                                                                width: 255px;
+                                                                                margin-top: 25px;/*28*/
+                                                                                
+                                                                            
+                                                                                               }
+                                                                        
+                                                                                               .foto{
+                                                                        
+                                                                                                /*background-color: rgb(20, 220, 37);*/
+                                                                                                display: flex;
+                                                                                                height: 88px;
+                                                                                                width: 46%;
+                                                                        
+                                                                        
+                                                                        
+                                                                                                background-image: url("image/image-jeremy.png"),url("image/favicon-32x32.png") ;
+                                                                                                background-repeat: no-repeat;
+                                                                                                background-position: top left;
+                                                                                                background-size: 65px, 70px;
+                                                                                                border-width: 20px solid;
+                                                                                               
+                                                                                                /*background-position-x: 12%,-19%;
+                                                                                                background-position-y: 13%,-2%;*/
+                                                                                                background-position-x: 10%,-19%;
+                                                                                                background-position-y: 7%,-4%;
+                                                                        
+                                                                                                
+                                                                                                     }
+                                                                                                
+                                                                                               
+                                                                                              
+                                                                                             
+                                                                        
+                                                                        
+                                                                                                
+                                                                                                     
+                                                                        
+                                                                                                     .name{
+                                                                                                        /*background-color: rgb(220, 217, 20);*/
+                                                                                                        display: flex;
+                                                                                                        
+                                                                                                        height: 100px;
+                                                                                                        width: 100%;
+                                                                                                        flex-direction: column;
+                                                                                                        padding-top: 32px;
+                                                                                                    
+                                                                                                             }
+                                                                        .name_real{
+                                                                        
+                                                                            font-size: 24px;
+                                                                        
+                                                                                   }
+                                                                        
+                                                                        .Elpara{
+                                                                        
+                                                                            font-size: 14px;
+                                                                        
+                                                                               }
+                                                                        
+                                                                        
+                                                                        
+                                                                               /*ESTILO DE CATILLA IZQUIERDA SECCION DIA SEMANA MES*/
+                                                                        
+                                                                               .flex-container__hijo-derecho__mes-dia-semana-mes{
+                                                                        
+                                                                                /*background-color: red;*/
+                                                                                
+                                                                                display: flex;
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                height: 211px;
+                                                                                align-items: flex-start;
+                                                                                width: 251px;
+                                                                                margin-top: 20px;
+                                                                                margin-bottom: 25px;
+                                                                                flex-wrap: nowrap;
+                                                                                justify-content: space-between;
+                                                                                
+                                                                        
+                                                                                                                                 }
+                                                                        
+                                                                               
+                                                                          .dias{  
+                                                                                 /*background-color: rgb(237, 255, 71);*/
+                                                                                 height: 20px;
+                                                                                 color:#8d94ff;
+                                                                                 font-size: 18px;
+                                                                              }
+                                                                                 
+                                                                              .dias:hover{
+                                                                        
+                                                                                color:#ffffff;
+                                                                        
+                                                                                        }
+                                                                        
+                                                                         .semana{
+                                                                            /*background-color: rgb(111, 71, 255);*/
+                                                                                height: 20px;
+                                                                                color:#ffffff;
+                                                                                font-size: 18px;
+                                                                                }
+                                                                         
+                                                                                
+                                                                        
+                                                                          .mes{
+                                                                            /*background-color: rgb(71, 255, 95);*/
+                                                                                height: 20px;
+                                                                                color:#8d94ff;
+                                                                                font-size: 18px;
+                                                                              }
+                                                                        
+                                                                                .mes:hover{
+                                                                        
+                                                                                    color:#ffffff;
+                                                                                
+                                                                                            }
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                                            .mobil:lang(es) {
+                                                                                                
+                                                                                           
+                                                                                               
+                                                                                               width: 102px;
+                                                                                               padding-left: 25px;
+                                                                                        
+                                                                                                            }
+                                                                        
+                                                                                         .hora:lang(es){
+                                                                                                
+                                                                                            font-size: 30px;
+                                                                        
+                                                                                    
+                                                                                                        }
+                                                                        
+                                                                                   
+                                                                        
+                                                                        
+                                                                        body{ background-color: hsl(226, 43%, 10%); width: 100%; }
+                                                                        
+                                                                        .desktop{ display: none;  }
+                                                                                                                                                                            
+                                                                                                          }/*EEEEESSTE ES EL FIIIN DE LOS MEDIA QUERIS*/                                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                          
+
+
+
+
+
+
+
+
+                                                                      @media screen and (max-width:356px){
+
+
+
+    
+
+
+                                                                        *{  margin:0; padding: 0; box-sizing: content-box; }
+                                                                        
+                                                                           
+                                                                        body{
+                                                                        
+                                                                            margin: 0 auto;
+                                                                            font-family: Rubik, Arial, Helvetica, sans-serif;
+                                                                            color: cornsilk;
+                                                                            background-color: hsl(226, 43%, 10%);
+                                                                        
+                                                                            }
+                                                                        
+                                                                        .flex-container{
+                                                                            
+                                                                            background-color: hsl(226, 43%, 10%);
+                                                                            width: 107%;
+                                                                            height: 1924px;
+                                                                            display: flex;
+                                                                            flex-wrap: nowrap;
+                                                                            justify-content:center;
+                                                                            align-items: center;
+                                                                            flex-direction: column;
+                                                                            gap: 178px;
+                                                                            align-content: center;
+                                                                            margin-top: -401px;
+                                                                        
+                                                                            
+                                                                                        }
+                                                                        
+                                                                        
+                                                                                             
+                                                                        
+                                                                        .flex-container__hijo-derecho{   
+                                                                            
+                                                                            background-color: hsl(235, 46%, 20%);
+                                                                            /*border: rgb(255, 0, 128) solid;*/
+                                                                            height:184px;
+                                                                            display: flex;
+                                                                            border-radius: 15px;
+                                                                            flex-direction: column;
+                                                                            align-items: center;
+                                                                            justify-content: flex-start;
+                                                                            margin-bottom: 74px;
+                                                                            width: 85%;
+                                                                                                     }
+                                                                        
+                                                                                                      
+                                                                        
+                                                                        
+                                                                        .flex-container__hijo-izquierdo{   
+                                                                            
+                                                                            /*background-color: rgb(20, 161, 7);*/
+                                                                            /*border: rgb(255, 136, 0) solid;*/
+                                                                            height:400px;
+                                                                            width: 86%; /*254*/
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            flex-wrap: nowrap;
+                                                                            justify-content: center;
+                                                                            align-items: stretch;
+                                                                            gap: 24px;
+                                                                            border-radius: 15px;
+                                                                            align-content: center;     
+                                                                            margin-top: 123px;
+                                                                        
+                                                                                                
+                                                                                                       }
+                                                                        
+                                                                                                   
+                                                                        
+                                                                        
+                                                                        
+                                                                        .hijo-izquierdo__IntensSuperios{   
+                                                                            
+                                                                            /*background-color: rgb(17, 7, 161);*/
+                                                                            /*border: rgb(255, 0, 0) solid;*/
+                                                                            height:50%;
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            flex-wrap: nowrap;
+                                                                            justify-content: center;
+                                                                            gap:24px;
+                                                                            align-items: center;
+                                                                           width: 100%;
+                                                                                                    
+                                                                                                
+                                                                                                       }
+                                                                        
+                                                                        
+                                                                        .hijo-izquierdo__IntensInferior{   
+                                                                            
+                                                                            /*background-color: rgb(214, 16, 214);*/
+                                                                            /*border: rgb(188, 226, 19) solid;*/
+                                                                            height:56%;
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            flex-wrap: nowrap;
+                                                                            gap: 24px;
+                                                                            align-items: center;
+                                                                            align-content: center;
+                                                                            padding-top: 97%;
+                                                                            width: 100%;
+                                                                            
+                                                                                                                              
+                                                                                                                            
+                                                                                                       }
+                                                                        
+                                                                        /*ESTOS SON LOS ESTILOS GENERAL DE LOS ITEMS DE LA DERECHA (el cuadro padre)*/
+                                                                        .estilos_intens_izquierda{  
+                                                                            
+                                                                            background-color: rgb(248, 16, 16);
+                                                                            /*border: rgb(0, 0, 0) solid;*/
+                                                                            width: 96%;
+                                                                            border-radius: 15px;
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            align-items: center;
+                                                                            justify-content: flex-end;
+                                                                        /*bordes de abajo de los intes del lado derecho*/   
+                                                                            border-bottom-left-radius: 19px;
+                                                                            border-bottom-right-radius: 19px;
+                                                                        
+                                                                            padding-top: 39px;
+                                                                                                                               
+                                                                                                                              
+                                                                                                 }
+                                                                        
+                                                                        /*ESTOS SON LOS ESTILOS GENERAL DE LOS ITEMS DE LA DERECHA (El cuadro hijo)*/                         
+                                                                        .adentro{  
+                                                                            
+                                                                            background-color: hsl(235, 46%, 20%);
+                                                                            /*border: rgb(0, 0, 0) solid;*/
+                                                                            width:100%;
+                                                                            height: 122px;
+                                                                            border-radius: 15px;
+                                                                            
+                                                                                                                               
+                                                                                                                              
+                                                                                }
+                                                                                .adentro:hover{
+                                                                                     
+                                                                                    background-color: hsl(235deg 37% 28%);
+                                                                                                             
+                                                                                                             }
+                                                                        
+                                                                        
+                                                                        /* Estilos del hijo izquierdo de container mayor  */          
+                                                                        
+                                                                        .flex-container__hijo-derecho__usuario{  
+                                                                            
+                                                                            background-color: hsl(235, 45%, 61%);
+                                                                            /*border: rgb(0, 0, 0) solid;*/
+                                                                            width:100%;
+                                                                            border-radius: 15px;
+                                                                            height: 64%;
+                                                                            display: flex;
+                                                                            justify-content: center;
+                                                                            padding-top: 12px;
+                                                                                                                               
+                                                                                                                              
+                                                                                                               }
+                                                                        
+                                                                        
+                                                                        /* colores de fondo de lo s elementos de la derecha */
+                                                                        
+                                                                        .work{  
+                                                                            
+                                                                            background-color: hsl(15, 100%, 70%);
+                                                                        
+                                                                            background-image: url(image/icon-work.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 65px;
+                                                                            background-position-x: 90%;
+                                                                            background-position-y: -8%;
+                                                                            
+                                                                            
+                                                                            
+                                                                                                                
+                                                                             }
+                                                                        
+                                                                        .play{  
+                                                                            
+                                                                            background-color: hsl(195, 74%, 62%); 
+                                                                                
+                                                                            background-image: url(image/icon-play.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 65px;
+                                                                            background-position-x: 90%;
+                                                                            background-position-y: -8%;
+                                                                        
+                                                                            }
+                                                                        
+                                                                        .study{  
+                                                                            
+                                                                            background-color: hsl(348, 100%, 68%);  
+                                                                                
+                                                                            background-image: url(image/icon-study.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 65px;
+                                                                            background-position-x: 90%;
+                                                                            background-position-y: -8%;
+                                                                              }
+                                                                        
+                                                                        .exercise{  
+                                                                            
+                                                                            background-color: hsl(145, 58%, 55%);                     
+                                                                                
+                                                                            background-image: url(image/icon-exercise.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 65px;
+                                                                            background-position-x: 88%;
+                                                                            background-position-y: -1%;
+                                                                              }
+                                                                        
+                                                                              .social{  
+                                                                            
+                                                                            background-color: hsl(264, 64%, 52%); 
+                                                                                
+                                                                            background-image: url(image/icon-social.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 65px;
+                                                                            background-position-x: 90%;
+                                                                            background-position-y: -5%;
+                                                                                     
+                                                                                     }
+                                                                        
+                                                                        
+                                                                              .selfcare{  
+                                                                            
+                                                                            background-color: hsl(43, 84%, 65%); 
+                                                                                
+                                                                            background-image: url(image/icon-self-care.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 51px;
+                                                                            background-position-x: 90%;
+                                                                            background-position-y: -5%;
+                                                                                     }
+                                                                        
+                                                                        
+                                                                        
+                                                                            /*contenedor padre work__adentro */
+                                                                            .work__adentro{
+                                                                        
+                                                                                 display: flex;
+                                                                                 flex-direction: column;
+                                                                                 justify-content: flex-start;
+                                                                            align-items: center;
+                                                                                          
+                                                                                          }     
+                                                                        
+                                                                                          
+                                                                                          
+                                                                        /*Estilo para el Titulo Menu Hora Week Time*/
+                                                                        /*Contenedor padre para menu y titulo*/  
+                                                                            .adentro__nombre-menu{
+                                                                            
+                                                                            width: 75%;
+                                                                            display: flex;
+                                                                            height: 47px;
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                align-items: center;
+                                                                                padding-top: 5px;
+                                                                        
+                                                                        
+                                                                                                  }
+                                                                        /*Contenedor padre para hora*/  
+                                                                        .adentro__hora{
+                                                                            /*background-color: red; */
+                                                                            width: 75%;
+                                                                            display: flex;
+                                                                            height: 47px;
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                align-items: center;
+                                                                                Font-size: 275%;
+                                                                                
+                                                                        
+                                                                        
+                                                                                     }
+                                                                        
+                                                                        /*Contenedor padre para semana*/  
+                                                                        .adentro__semana-hora{
+                                                                           /* background-color: rgb(76, 0, 255); */
+                                                                            width: 75%;
+                                                                            display: flex;
+                                                                            height: 47px;
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                align-items: flex-start;
+                                                                                font-size: 13px;
+                                                                                margin: -6px;
+                                                                                justify-content: flex-end;
+                                                                                align-items: center;
+                                                                                
+                                                                        
+                                                                        
+                                                                                     }
+                                                                        
+                                                                        
+                                                                        
+                                                                         .nombre{
+                                                                            /*background-color: rgb(76, 0, 255); */
+                                                                            width: 80%;
+                                                                            display: flex;
+                                                                            height: 47px;
+                                                                        
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                align-items: center;
+                                                                        
+                                                                                   }
+                                                                        .menu{
+                                                                            /*background-color: rgb(76, 0, 255); */
+                                                                            width: 80%;
+                                                                            display: flex;
+                                                                            height: 47px;
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                align-items: center;
+                                                                            justify-content: flex-end;
+                                                                        
+                                                                            background-image: url(image/icon-ellipsis.svg);
+                                                                            background-repeat: no-repeat;
+                                                                            background-position: top right;
+                                                                            background-size: 17px;
+                                                                            Font-size: 15px;
+                                                                            background-position-x: 90%;
+                                                                            background-position-y: 55%;
+                                                                              
+                                                                             } 
+                                                                                 
+                                                                            
+                                                                        
+                                                                             
+                                                                             
+                                                                             
+                                                                             /*ESTILOS DEL HIJO IZQUIERDO */
+                                                                        
+                                                                             .usuario__foto-name{
+                                                                                /*background-color: crimson;*/
+                                                                                display: flex;
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                height: 93px;
+                                                                                align-items: center;
+                                                                                width: 255px;
+                                                                                margin-top: 25px;/*28*/
+                                                                                
+                                                                            
+                                                                                               }
+                                                                        
+                                                                                               .foto{
+                                                                        
+                                                                                                /*background-color: rgb(20, 220, 37);*/
+                                                                                                display: flex;
+                                                                                                height: 88px;
+                                                                                                width: 46%;
+                                                                        
+                                                                        
+                                                                        
+                                                                                                background-image: url("image/image-jeremy.png"),url("image/favicon-32x32.png") ;
+                                                                                                background-repeat: no-repeat;
+                                                                                                background-position: top left;
+                                                                                                background-size: 65px, 70px;
+                                                                                                border-width: 20px solid;
+                                                                                               
+                                                                                                /*background-position-x: 12%,-19%;
+                                                                                                background-position-y: 13%,-2%;*/
+                                                                                                background-position-x: 10%,-19%;
+                                                                                                background-position-y: 7%,-4%;
+                                                                        
+                                                                                                
+                                                                                                     }
+                                                                                                
+                                                                                               
+                                                                                              
+                                                                                             
+                                                                        
+                                                                        
+                                                                                                
+                                                                                                     
+                                                                        
+                                                                                                     .name{
+                                                                                                        /*background-color: rgb(220, 217, 20);*/
+                                                                                                        display: flex;
+                                                                                                        
+                                                                                                        height: 100px;
+                                                                                                        width: 100%;
+                                                                                                        flex-direction: column;
+                                                                                                        padding-top: 32px;
+                                                                                                    
+                                                                                                             }
+                                                                        .name_real{
+                                                                        
+                                                                            font-size: 24px;
+                                                                        
+                                                                                   }
+                                                                        
+                                                                        .Elpara{
+                                                                        
+                                                                            font-size: 14px;
+                                                                        
+                                                                               }
+                                                                        
+                                                                        
+                                                                        
+                                                                               /*ESTILO DE CATILLA IZQUIERDA SECCION DIA SEMANA MES*/
+                                                                        
+                                                                               .flex-container__hijo-derecho__mes-dia-semana-mes{
+                                                                        
+                                                                                /*background-color: red;*/
+                                                                                
+                                                                                display: flex;
+                                                                                flex-direction: row;
+                                                                                flex-wrap: nowrap;
+                                                                                height: 211px;
+                                                                                align-items: flex-start;
+                                                                                width: 251px;
+                                                                                margin-top: 20px;
+                                                                                margin-bottom: 25px;
+                                                                                flex-wrap: nowrap;
+                                                                                justify-content: space-between;
+                                                                                
+                                                                        
+                                                                                                                                 }
+                                                                        
+                                                                               
+                                                                          .dias{  
+                                                                                 /*background-color: rgb(237, 255, 71);*/
+                                                                                 height: 20px;
+                                                                                 color:#8d94ff;
+                                                                                 font-size: 18px;
+                                                                              }
+                                                                                 
+                                                                              .dias:hover{
+                                                                        
+                                                                                color:#ffffff;
+                                                                        
+                                                                                        }
+                                                                        
+                                                                         .semana{
+                                                                            /*background-color: rgb(111, 71, 255);*/
+                                                                                height: 20px;
+                                                                                color:#ffffff;
+                                                                                font-size: 18px;
+                                                                                }
+                                                                         
+                                                                                
+                                                                        
+                                                                          .mes{
+                                                                            /*background-color: rgb(71, 255, 95);*/
+                                                                                height: 20px;
+                                                                                color:#8d94ff;
+                                                                                font-size: 18px;
+                                                                              }
+                                                                        
+                                                                                .mes:hover{
+                                                                        
+                                                                                    color:#ffffff;
+                                                                                
+                                                                                            }
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                                            .mobil:lang(es) {
+                                                                                                
+                                                                                           
+                                                                                               
+                                                                                               width: 102px;
+                                                                                               padding-left: 25px;
+                                                                                        
+                                                                                                            }
+                                                                        
+                                                                                         .hora:lang(es){
+                                                                                                
+                                                                                            font-size: 30px;
+                                                                        
+                                                                                    
+                                                                                                        }
+                                                                        
+                                                                                   
+                                                                        
+                                                                        
+                                                                        body{ background-color: hsl(226, 43%, 10%); width: 100%; }
+                                                                        
+                                                                        .desktop{ display: none;  }
+                                                                                                                                                                            
+                                                                                                          }/*EEEEESSTE ES EL FIIIN DE LOS MEDIA QUERIS*/                                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     @media screen and (max-width:344px){ 
+
+
+
+                                         
+        .hijo-izquierdo__IntensInferior{ padding-top: 102%;   }
+    
+    
+    
+                                         }
+
+
+
+    

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Desktoooop</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+     <script>
+
+        
+    </script>   
+
+  
+    
+    <section class="flex-container">
+        
+       <!--<div class="regresar"> <a href="http://localhost:3700/home"></a></div> --> 
+
+
+
+         <div class="flex-container__hijo flex-container__hijo-derecho">
+
+            <div class="flex-container__hijo-derecho__usuario">
+
+                <div class="usuario__foto-name">
+
+                    <div class="foto marco_de_foto">
+                                                
+                    </div>
+
+                    <div class="name">
+                                      <div class="Elpara">Report For</div> 
+                                      <div class="name_real">Jeremy Robson</div>
+                                      
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="flex-container__hijo-derecho__mes-dia-semana-mes">
+
+                <div class="dias" id="dias">Daily</div>
+                <div class="semana" id="semanas">Weekly</div>
+                <div class="mes" id="mensual">Monthy</div>
+
+            </div>
+
+
+        </div>
+
+         <div class="flex-container__hijo flex-container__hijo-izquierdo">
+
+                <div class="hijo-izquierdo__IntensSuperios">
+
+                        <div class="work estilos_intens_izquierda" id="workjs">
+
+                            <div class="work__adentro adentro" >
+                                  <div class="adentro__nombre-menu">
+
+                                     <div class="nombre">Work</div>
+                                     <div class="menu"></div>
+
+                                  </div>
+                                  <div class="adentro__hora">
+
+                                     <div class="hora" > <%= titulo.work * 7 %>hrs</div> <div class="adentro__semana-hora mobil">Last Week - 36hrs</div>
+                                     
+                                  </div>
+                                  <div class="adentro__semana-hora desktop">
+
+                                     <div>Last Week - 36hrs</div>
+
+                                  </div>
+                            </div>
+
+                        </div>
+                        <div class="play estilos_intens_izquierda" id="playjs">
+
+                            <div class="work__adentro adentro" >
+                                <div class="adentro__nombre-menu">
+
+                                    <div class="nombre">Play</div>
+                                    <div class="menu"></div>
+
+                                 </div>
+                                 <div class="adentro__hora">
+
+                                    <div class="hora"> <%= titulo.play * 7 %>hrs</div> <div class="adentro__semana-hora mobil">Last Week - 36hrs</div>
+                                    
+                                 </div>
+                                 <div class="adentro__semana-hora desktop">
+
+                                    <div>Last Week - 8hrs</div>
+
+                                 </div>
+                                
+                            </div>
+
+                        </div>
+                        <div class="study estilos_intens_izquierda" id="studyjs">
+
+                            <div class="work__adentro adentro" >
+                                <div class="adentro__nombre-menu">
+
+                                    <div class="nombre">Study</div>
+                                    <div class="menu"></div>
+
+                                 </div>
+                                 <div class="adentro__hora">
+
+                                    <div class="hora"> <%= titulo.study * 7 %> hrs</div>  <div class="adentro__semana-hora mobil">Last Week - 36hrs</div>
+                                    
+                                 </div>
+                                 <div class="adentro__semana-hora desktop">
+
+                                    <div>Last Week - 7hrs</div>
+
+                                 </div>
+                            </div>
+
+                        </div>
+
+                </div>
+
+                <div class="hijo-izquierdo__IntensInferior">
+
+                        <div class="exercise estilos_intens_izquierda" id="exercisejs">
+
+                            <div class="work__adentro adentro" >
+                                <div class="adentro__nombre-menu">
+
+                                    <div class="nombre">Exercise</div>
+                                    <div class="menu"></div>
+
+                                 </div>
+                                 <div class="adentro__hora">
+
+                                    <div class="hora"> <%= titulo.exercise * 7 %> hrs</div>  <div class="adentro__semana-hora mobil">Last Week - 36hrs</div>
+                                    
+                                 </div>
+                                 <div class="adentro__semana-hora desktop">
+
+                                    <div>Last Week - 5hrs</div>
+
+                                 </div>
+                            </div>
+
+                        </div>
+                        <div class="social estilos_intens_izquierda" id="socialjs">
+
+                            <div class="work__adentro adentro" >
+                                <div class="adentro__nombre-menu">
+
+                                    <div class="nombre">Social</div>
+                                    <div class="menu"></div>
+
+                                 </div>
+                                 <div class="adentro__hora">
+
+                                    <div class="hora"> <%= titulo.social * 7 %> hrs</div>  <div class="adentro__semana-hora mobil">Last Week - 36hrs</div>
+                                    
+                                 </div>
+                                 <div class="adentro__semana-hora desktop">
+
+                                    <div>Last Week - 10hrs</div>
+
+                                 </div>
+                            </div>
+
+                        </div>
+                        <div class="selfcare estilos_intens_izquierda" id="selfjs">
+
+                            <div class="work__adentro adentro" >
+                                <div class="adentro__nombre-menu">
+
+                                    <div class="nombre">Self Care</div>
+                                    <div class="menu"></div>
+
+                                 </div>
+                                 <div class="adentro__hora">
+
+                                    <div class="hora"> <%= titulo.self * 7 %> hrs</div> <div class="adentro__semana-hora mobil">Last Week - 36hrs</div>
+                                    
+                                 </div>
+                                 <div class="adentro__semana-hora desktop">
+
+                                    <div>Last Week - 2hrs</div>
+
+                                 </div>
+                            </div>
+
+                        </div>
+
+                </div>
+
+        </div>
+         
+
+    
+
+   
+
+    
+<script>
+//work
+var workjs = document.getElementById('workjs');
+workjs.addEventListener('click', ()=> {  var desicion = parseInt(prompt("(1) Envia 1 para Actualizar. /n  (2) Envia 2 para Eliminar.") ); 
+
+                                         if(desicion == 1 ){
+  
+                location.replace("http://localhost:3700/update");                               
+
+                                                            }else if(desicion == 2 ){ 
+                                                                
+                                                                workjs = document.getElementById('workjs');
+                                  
+                                                                workjs.style.display = "none";               
+                                                                                    }else{ 
+                                                                                        
+                                                                                          alert(" Procura usar una de las dos opciones "); 
+                                                                                         }
+
+
+                                       } )//fin del evento 
+
+ 
+     
+//play
+var playjs = document.getElementById('playjs');
+playjs.addEventListener('click', ()=> {  
+
+
+var desicion = parseInt(prompt("(1) Envia 1 para Actualizar. /n  (2) Envia 2 para Eliminar.") ); 
+
+if(desicion == 1 ){
+
+    location.replace("http://localhost:3700/update");
+
+                   }else if(desicion == 2 ){ 
+                       
+                    playjs = document.getElementById('playjs');
+
+                    playjs.style.display = "none";               
+                                           }else{ 
+                                               
+                                                 alert(" Procura usar una de las dos opciones "); 
+                                                }
+
+
+
+
+
+                                       } )//fin del evento     
+
+
+
+//study
+var studyjs = document.getElementById('studyjs');
+studyjs.addEventListener('click', ()=> { 
+
+
+var desicion = parseInt(prompt("(1) Envia 1 para Actualizar. /n  (2) Envia 2 para Eliminar.") ); 
+
+if(desicion == 1 ){
+
+    location.replace("http://localhost:3700/update");
+
+                   }else if(desicion == 2 ){ 
+                       
+                    studyjs = document.getElementById('studyjs');
+
+                    studyjs.style.display = "none";               
+                                          
+                                           }else{ 
+                                               
+                                                 alert(" Procura usar una de las dos opciones "); 
+                                                }
+
+
+
+
+
+
+                                       } )//fin del evento      
+
+
+
+//Exercise
+var Exercisejs = document.getElementById('exercisejs');
+Exercisejs.addEventListener('click', ()=> { 
+
+
+
+var desicion = parseInt(prompt("(1) Envia 1 para Actualizar. /n  (2) Envia 2 para Eliminar.") ); 
+
+if(desicion == 1 ){
+
+    location.replace("http://localhost:3700/update");
+
+                   }else if(desicion == 2 ){ 
+                       
+                    exercisejs = document.getElementById('exercisejs');
+
+                    exercisejs.style.display = "none";               
+                                          
+                                           }else{ 
+                                               
+                                                 alert(" Procura usar una de las dos opciones "); 
+                                                }
+
+
+
+   
+
+
+                                            } )//fin del evento      
+
+
+//Social
+var socialjs = document.getElementById('socialjs');
+socialjs.addEventListener('click', ()=> {  
+
+
+
+
+
+
+var desicion = parseInt(prompt("(1) Envia 1 para Actualizar. /n  (2) Envia 2 para Eliminar.") ); 
+
+if(desicion == 1 ){
+   
+     
+    location.replace("http://localhost:3700/update");
+
+                   }else if(desicion == 2 ){ 
+                       
+                    socialjs = document.getElementById('socialjs');
+
+                    socialjs.style.display = "none";               
+                                          
+                                           }else{ 
+                                               
+                                                 alert(" Procura usar una de las dos opciones "); 
+                                                }
+
+
+
+   
+
+
+                                            } )//fin del evento      
+
+
+
+
+
+
+
+
+
+
+//Self 
+var selfjs = document.getElementById('selfjs');
+selfjs.addEventListener('click', ()=> {  
+
+
+
+var desicion = parseInt(prompt("(1) Envia 1 para Actualizar. /n  (2) Envia 2 para Eliminar.") ); 
+
+if(desicion == 1 ){
+
+    location.replace("http://localhost:3700/update");
+
+                   }else if(desicion == 2 ){ 
+                       
+                
+                    selfjs = document.getElementById('selfjs');
+                    selfjs.style.display = "none";               
+                                          
+                                           }else{ 
+                                               
+                                                 alert(" Procura usar una de las dos opciones "); 
+                                                }
+
+
+
+   
+
+
+                                            } )//fin del evento      
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+</script>
+ 
+
+
+
+
+
+</body>
+</html>
